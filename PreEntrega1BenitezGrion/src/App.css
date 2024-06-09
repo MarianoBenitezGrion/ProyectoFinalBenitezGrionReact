@@ -31,6 +31,10 @@ p.alerta{
 .tipografia{
   font-size: 20px;
 }
+.centrado{
+  justify-content:baseline;
+  text-align: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
