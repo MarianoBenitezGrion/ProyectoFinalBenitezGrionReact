@@ -1,0 +1,16 @@
+.cart-container{
+    display: flex;
+    gap:10px;
+    border: solid black 5px;
+    
+    align-items: center;
+
+}
+.img-container{
+    height: 100px;
+}
+img{
+    width:100%;
+    height: 100%;
+
+}

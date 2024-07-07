@@ -40,6 +40,20 @@ const listaProductos=[
         descripcion:'Pantalon River Bordo',
         categoria:'Pantalones',
         precio:50000
+    },
+    {
+        id:7,
+        img:'https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/s/h/short-de-river-adidas-dna-gris-100020ip9646001-1.jpg',
+        descripcion:'Short River Negro 2024',
+        categoria:'Pantalones',
+        precio:49500
+    },
+    {
+        id:8,
+        img:'https://acdn.mitiendanube.com/stores/870/577/products/queremos-informar-que-nos-tomamos-unos-dias-hasta-el-2709-001b39b4ab023b420317073959849242-480-0.png',
+        descripcion:'Camiseta Suplente 2015',
+        categoria:'Camisetas',
+        precio:63000
     }
 
 ]

@@ -17,6 +17,7 @@ const NavbarComponent=()=> {
           <Nav.Item><Link className='default-text' to={'/'}>Inicio</Link></Nav.Item>
             <Nav.Item ><Link className='default-text' to={'/Contacto'}>Contacto</Link></Nav.Item>
             <Nav.Item> <CartWidget/> </Nav.Item>
+            
             <NavDropdown title="Productos" id="basic-nav-dropdown">
               <NavDropdown.Item ><Link className='default-text' to={'/category/Camisetas'}>Camisetas</Link></NavDropdown.Item>
               <NavDropdown.Item ><Link className='default-text' to={'/category/Camperas'}>Camperas</Link></NavDropdown.Item>
@@ -24,10 +25,11 @@ const NavbarComponent=()=> {
               <NavDropdown.Divider />
               <NavDropdown.Item >Mas Informacion</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Item><Link className='rojo' to={'/formulario'}>Iniciar Sesion</Link></Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-);
+)
 }
-export default NavbarComponent;
+export default NavbarComponent

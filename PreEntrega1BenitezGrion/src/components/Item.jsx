@@ -1,13 +1,17 @@
 import './Item.css'
-const Item=({img,descripcion,precio})=>{
+
+const Item=({ prod })=>{
+    
     return(
-        <>
+        <div>
+        
         <div className="contenedor-imagen">
-        <img src={img} alt={descripcion} />
+        <img src={prod?.img} alt={prod?.descripcion} />
         </div>
-        <h2>{descripcion}</h2>
-        <p>${precio}</p>
-        </>
+        <h2>{prod?.descripcion}</h2>
+        <p>${prod?.precio}</p>
+        <p>Stock: {prod?.stock}</p>
+        </div>
     )
 }
 export default Item

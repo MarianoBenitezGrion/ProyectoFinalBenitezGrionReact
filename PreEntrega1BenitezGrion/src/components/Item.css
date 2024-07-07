@@ -1,6 +1,6 @@
 .contenedor-imagen{
-    width: 400px;
-
+    width: 100%;
+    align-content: center;
 }
 img{
     width:100%;
