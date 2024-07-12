@@ -25,10 +25,9 @@ const ItemListContainer=({greeting})=>{
 
         const getProductos= async ()=>{
             try{
-
                 const data= await getDocs(productsRef)
                 const dataFiltrada=data.docs.map((doc)=>({id:doc.id,...doc.data()}))
-                console.log(dataFiltrada)
+                
                 setProductos(dataFiltrada)
             }
             catch{

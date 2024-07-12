@@ -48,7 +48,7 @@ export const ShopContextComponent=({children})=>{
     }
     
     return(
-        <ShopContext.Provider value={{cantidadCarritoMenosUno,cantidadTotal, cart, agregarAlCarrito, clear}}>
+        <ShopContext.Provider value={{cantidadCarritoMenosUno,cantidadTotal,setCantidad, cart, agregarAlCarrito, clear}}>
             {children}
         </ShopContext.Provider>
     )
